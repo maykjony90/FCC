@@ -11,12 +11,12 @@
 	<link rel="stylesheet"  href="css/custom.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
-	<script>$(document).ready(function() {	//Now you know three ways of targetinf elements: by typr"
-	// $("button").addClass("animated bounce");//$("button") ,
-	// $(".well").addClass("animated shake");	//$(".btn")
-	// $("#target3").addClass("animated fadeOut");//$("#target1").
-	$("button").addClass("animated");
-	$(".btn").addClass("shake");
+	<script>$(document).ready(function() {	// Now you know three ways of targetinf elements: by typr"
+	// $("button").addClass("animated bounce");	// $("button") ,
+	// $(".well").addClass("animated shake");	// $(".btn")
+	// $("#target3").addClass("animated fadeOut");	// $("#target1")
+	// $("button").addClass("animated");
+	// $(".btn").addClass("shake");
 	$("#target1").addClass("btn-primary");
 	// $("button").removeClass("btn-default");
 	$("#target2").css("color", "blue");
@@ -31,6 +31,13 @@
 	$("#target4").parent().css("background-color", "red");
 	$("#target4").css("background-color", "green");
 	$("#left-well").children().css("background-color", "orange");
+	// $("#left-well").children().css("color", "blue");
+	// $(".target:nth-child(1)").addClass("animated bounce");
+	$(".target:odd").addClass("animated shake");	//starts to count from '0'
+	// $(".target:even").addClass("animated shake");
+	// $("body").addClass("animated fadeOut");
+	$("body").addClass("animated fadeIn");
+
 	});</script>
 
 
